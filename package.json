@@ -1,0 +1,29 @@
+{
+  "name": "Express",
+  "version": "1.0.0",
+  "description": "Exercícios de express do curso de WEB Moderno Cod3r.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "production": "pm2 start index.js --name appx-backend"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otavioaugusto1/Learning-Express-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otavioaugusto1/Learning-Express-/issues"
+  },
+  "homepage": "https://github.com/otavioaugusto1/Learning-Express-#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
